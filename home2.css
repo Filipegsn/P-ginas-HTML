@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+}
+
+.topo{
+	background-color: #000;
+	height: 70px;
+}
+
+.container{
+	margin: auto;
+	width: 1000px;
+}
+
+.logo{
+	float: left;
+}
+.logo img{
+
+	height: 70px;
+}
+
+.menu{
+	list-style: none;
+	float: right;
+}
+
+.menu li{
+	color: white;
+	list-style: none;
+	float: left;
+	line-height: 30px;
+	padding: 20px;
+
+}
+
+.menu li:hover {
+	border-bottom:5px solid blue;	
+	cursor: pointer;
+	background-color: silver;
+}
