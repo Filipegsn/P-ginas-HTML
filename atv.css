@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+}
+
+.container{
+	height: 60px;
+	background-color: black;
+}
+
+.topo{
+	margin: auto;
+	width: 1000px;
+	height: 60px;
+}
+
+.logo{
+	float: left;
+}
+.logo img{
+	height: 60px;
+}
+
+.menu{
+	float: right;
+	margin:auto;
+}
+.menu li{
+	float: left;
+	color: white;
+	list-style: none;
+	padding: 20px;
+	line-height: 20px;
+}
+.menu li:hover{
+	background-color: deepskyblue;
+}
+
+.banner{
+	background-color: deepskyblue;
+	height: 250px;
+}
+
+.homem{
+	float: right;
+}
+.homem img{
+	height: 250px;
+	padding-right: 350px;
+}
+
+.frase{
+	float: right;
+	padding-top: 30px;
+	font-size: 35px;
+	color: white;
+}
+.frase li{
+	list-style: none;
+	color: white;
+	font-size: 15px;
+	padding-top: 5px;
+	padding-left: 350px;
+}
+.botao{
+	background-color: yellow;
+	width: 200px;
+	margin-left: 150px;
+	margin-top: 25px;
+	border-radius: 5px;
+}
+.botao li{
+	color: black;
+	font-size: 15px;
+	padding-left: 35px;
+	padding-top: 8px;
+	height: 30px;
+}
+
+.vitrine ul{
+padding: 20px;
+text-align: center;
+}
+
+.mural{
+	padding-left: 270px;
+}
+
+.rodape{
+background-color: deepskyblue;
+height: 40px;
+text-align: center;
+color: white;
+line-height: 40px;
+}
